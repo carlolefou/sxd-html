@@ -1,0 +1,13 @@
+[package]
+name = "sxd-html"
+version = "0.1.0"
+authors = ["Carlo Fourier <carlofourier@outlook.com>"]
+edition = "2018"
+license = "MIT"
+
+[dependencies]
+html5ever = "0.25"
+sxd-document = ">= 0.2, < 0.4"
+
+[dev-dependencies]
+sxd-xpath = "0.4"
